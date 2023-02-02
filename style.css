@@ -78,21 +78,22 @@ max-width: 250px;
     /* display: inline-block; */
     margin: auto;
 }
-
+.work-container{
+    width: 100%;
+}
 .work-item {
     /* background-position: center; */
-    background-position: top;
+    /* background-position: top;
     background-size: cover;
     position: relative;
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    background-image: url('Horiseon.png'); */
 }
 
-#work1 {
-    background-image: url('Horiseon.png');
-    width: 500px;
-    height: 300px;
-}
+
+
+   
+
 
 .work-item h3 {
     background-color: white;
@@ -177,7 +178,13 @@ max-width: 250px;
 @media screen and (max-width: 768px) {
     nav {
         background-color: #bb8588;
+    
     }
+nav ul{
+    
+}
+
+
 }
 
 /* Small smartphones - image placeholders change color */
