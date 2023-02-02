@@ -78,16 +78,18 @@ max-width: 250px;
     /* display: inline-block; */
     margin: auto;
 }
-.work-container{
+#work {
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
-.work-item {
+.work-item img {
     /* background-position: center; */
     /* background-position: top;
     background-size: cover;
-    position: relative;
-    width: 100%;
-    background-image: url('Horiseon.png'); */
+    position: relative;*/
+    width: 500px;
+    height : 250px;
 }
 
 
@@ -95,7 +97,7 @@ max-width: 250px;
    
 
 
-.work-item h3 {
+/*.work-item h3 {
     background-color: white;
     padding: 8px 16px;
     position: absolute;
@@ -107,11 +109,11 @@ max-width: 250px;
     margin: auto;
     padding: 20px;
     /* clear: both;
-    float: right; */
+    float: right; 
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #415263;
-}
+}*/
 
 .contact-container{
     display: flex;
